@@ -17,11 +17,11 @@ defmodule SumList do
       0
 
       iex> SumList.call(%{})
-      "Please, put a number list. e.g: [1, 2, 3]"
+      "please, put a number list. e.g: [1, 2, 3]"
       iex> SumList.call(:test)
-      "Please, put a number list. e.g: [1, 2, 3]"
+      "please, put a number list. e.g: [1, 2, 3]"
       iex> SumList.call("test")
-      "Please, put a number list. e.g: [1, 2, 3]"
+      "please, put a number list. e.g: [1, 2, 3]"
 
   """
   def call(list), do: sum(list, 0)
